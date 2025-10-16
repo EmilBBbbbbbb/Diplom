@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine
-from models import metadata
+from db.models import metadata
 
 engine = create_engine('sqlite:///metals.db')
 
